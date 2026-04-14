@@ -1,0 +1,20 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.soundcloud.playbot
+productName: SoundCloud PlayBot
+files:
+  - filter:
+      - dist/**/*
+      - electron.cjs
+win:
+  target: nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+extraResources:
+  - from: ../backend/server.dist
+    to: backend
+  - from: ../backend/browsers
+    to: backend/browsers
+electronVersion: 28.3.3
