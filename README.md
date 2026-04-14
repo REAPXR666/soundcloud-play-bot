@@ -1,7 +1,7 @@
 # soundcloud-play-bot
 
 Please DM me on discord for FULL SRC + BUILD - COMPLETELY FREE + OPEN SOURCE (github wont allow the files as they are too big).
-
+DISCORD: purify.rip_
 What Soundcloud Play Bot currently supports:
 1. Soundcloud plays
 2. soundcloud account gen (coming soon)
